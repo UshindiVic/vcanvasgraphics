@@ -1,0 +1,223 @@
+# vcanvasgraphics
+graphic-design-company
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vibrant Canvas – Premium graphic design services in Kenya. Logos, posters, branding kits and more." />
+  <meta name="keywords" content="Graphic Design Kenya, Logo Design Nairobi, Canva Expert Kenya, Posters, Branding" />
+  <meta name="author" content="Vibrant Canvas- Graphic Design" />
+  <title>Vibrant Canvas | Graphic Design Services</title>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      background-color: #0c0c0c;
+      color: #f4c430;
+      scroll-behavior: smooth;
+    }
+    header {
+      
+      background-color: #111;
+      color: #f4c430;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 2px solid #f4c430;
+      animation: fadeIn 2s ease-in;
+    }
+    nav {
+      text-align: center;
+      background-color: #1a1a1a;
+      padding: 15px 0;
+      border-bottom: 1px solid #f4c430;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #f4c430;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+      animation: slideUp 1s ease-in-out;
+    }
+    h2 {
+      color: #ffd700;
+      border-bottom: 1px solid #f4c430;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    .portfolio img {
+      width: 100%;
+      max-width: 400px;
+      margin: 15px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+      transition: transform 0.4s ease;
+    }
+    .portfolio img:hover {
+      transform: scale(1.05);
+    }
+    .services ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .services li {
+      background: #1e1e1e;
+      padding: 15px;
+      margin: 10px 0;
+      border-left: 6px solid #f4c430;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    .services li:hover {
+      background: #292929;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #111;
+      color: #f4c430;
+      font-size: 14px;
+      border-top: 1px solid #f4c430;
+    }
+    .contact a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+    .cta {
+      background-color: #1a1a1a;
+      padding: 30px;
+      text-align: center;
+      border-radius: 14px;
+      box-shadow: 0 0 20px rgba(244, 196, 48, 0.3);
+      animation: fadeIn 2s ease-in-out;
+    }
+    .cta a {
+      background-color: #f4c430;
+      color: black;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease, transform 0.3s ease;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    .cta a:hover {
+      background-color: #ffd700;
+      transform: scale(1.05);
+    }
+    .logo {
+      max-width: 500px;
+      margin-bottom: 15px;
+      animation: fadeInDown 1.5s ease;
+    }
+    .social-links {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .social-links a {
+      margin: 0 10px;
+      display: inline-block;
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: none;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+    .social-links a:hover {
+      color: #ffd700;
+      transform: scale(1.1);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="vcanvas-logo.png" alt="Vibrant Canvas Logo" class="logo">
+    <h1>Vibrant Canvas</h1>
+    <p>Welcome to Vibrant Canvas, where bold ideas meet brilliant design.</p>
+    <p><em>"We craft visual experiences that captivate, communicate, and convert. <br>
+    Are you building a brand from scratch? Or elevating your current identity, our team transforms vision into visuals that leave a lasting impression."</em></p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Vibrant Canvas, we specialize in bringing ideas to life through design. We believe that every brand has a unique story, and our mission is to turn that story into a compelling visual identity that stands out in any market.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>✅ Logo Design & Brand Identity</li>
+      <li>✅ Posters, Flyers & Brochures</li>
+      <li>✅ Social Media Kits</li>
+      <li>✅ Marketing & Advertising Designs</li>
+      <li>✅ Business Cards & Mockups</li>
+    </ul>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Featured Projects</h2>
+    <img src="DALA DALA BIGSALE.png" alt="Logo Sample">
+    <img src="JKUSMA Dinner Night.png" alt="Poster Sample">
+    <img src="newpack-logo.png" alt="Social Media Kit">
+  </section>
+
+  <section class="cta">
+    <h2>Let’s Bring Your Vision to Life</h2>
+    <p>Connect with us today to unlock the full potential of your brand.</p>
+    <a href="https://wa.me/254104082916" target="_blank">Contact Us</a>
+    <div class="social-links">
+      <p>Follow us on:</p>
+      <a href="https://www.instagram.com/vcanvas_graphics?igsh=MXM2dmU4NGdxN2s5bw==" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=61572215114772" target="_blank">Facebook</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Info</h2>
+    <p>Email: <a href="mailto:vcanvasgraphics@gmail.com">vcanvasgraphics@gmail.com</a></p>
+    <p>Phone: +254 104 082 916 / +254 748 592 515</p>
+    <p>Location: Nairobi, Kenya</p>
+    <p>Portfolio: <a href="https://sites.google.com/view/victor-frankline/home" target="_blank">View Our Work</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Vibrant Canvas. All Rights Reserved.
+  </footer>
+</body>
+</html>

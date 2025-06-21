@@ -1,2 +1,0 @@
-# vcanvasgraphics
-graphic-design-company
